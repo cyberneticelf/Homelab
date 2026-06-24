@@ -1,1 +1,39 @@
+# Homelab
 
+Just a small homelab I've been building and tinkering with at home — mostly 
+for learning, but also because I genuinely use a couple of these services 
+day to day. Documenting it here as I go.
+
+## What's in here
+
+### 🖥️ Proxmox + Nextcloud
+An old laptop that got a second life as a Proxmox box, running Nextcloud 
+so I've got my own private cloud storage instead of relying on someone 
+else's servers. There's an external hard drive attached for the actual 
+storage.
+
+📄 [Full writeup](docs/proxmox-nextcloud-setup.md)
+
+### 🛡️ Pi-hole (Raspberry Pi 5)
+A Raspberry Pi 5 running Pi-hole to block ads and trackers network-wide. 
+It works, I got it running properly, but honestly I haven't used it much 
+lately — still counts as a fun build though.
+
+📄 [Full writeup](docs/pihole-setup.md)
+
+## Why bother writing this up
+Mostly so I don't forget what I did and why, six months from now when 
+something breaks. Also figured it's worth sharing in case any of it's 
+useful to someone else poking around with their own setup.
+
+## Current status
+| Component | Status |
+|---|---|
+| Proxmox + Nextcloud | ✅ Up and running, actually used |
+| Pi-hole | 🟡 Working, just not actively used right now |
+
+## Stuff I might add later
+- [ ] Remote access so I can reach Nextcloud away from home (Tailscale/WireGuard)
+- [ ] Actual backups for the Nextcloud data (currently living dangerously)
+- [ ] Get back into using Pi-hole properly
+- [ ] Some basic monitoring so I know if something dies
