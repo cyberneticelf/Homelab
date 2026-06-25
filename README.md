@@ -34,5 +34,4 @@ something breaks.
 ## Stuff I might add later
 - [ ] Remote access so I can reach Nextcloud away from home (Tailscale/WireGuard)
 - [ ] Actual backups for the Nextcloud data 
-- [ ] Get back into using Pi-hole properly
 - [ ] Some basic monitoring so I know if something dies
