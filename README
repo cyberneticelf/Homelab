@@ -21,8 +21,7 @@ A Raspberry Pi 5 running Pi-hole to block ads and trackers network-wide.
 
 ## Why bother writing this up
 Mostly so I don't forget what I did and why, six months from now when 
-something breaks. Also figured it's worth sharing in case any of it's 
-useful to someone else poking around with their own setup.
+something breaks. 
 
 ## Current status
 | Component | Status |
