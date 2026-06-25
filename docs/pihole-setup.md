@@ -25,6 +25,5 @@ resolver for the network.
   reliability, convenience, replaced by something else?]
 
 ## Future improvements
-- [ ] Bring back into active use as primary network DNS
 - [ ] Add Unbound for upstream DNS privacy
 - [ ] Pair with the existing Nginx reverse proxy / Gitea setup, if still relevant
