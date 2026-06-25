@@ -60,6 +60,7 @@ to understand for anyone doing something similar:
   uploads worked and the desktop sync client connected successfully
 
 **Notes - Difference between host and container**
+
 Wouldn't have happened if I didnt use an external drive. UID's were different,
 which for a device running it internally wouldn't have been the case.
 
