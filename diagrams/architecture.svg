@@ -1,0 +1,29 @@
+<svg width="680" height="300" viewBox="0 0 680 300" xmlns="http://www.w3.org/2000/svg" role="img">
+<title>Proxmox and Nextcloud homelab architecture</title>
+<desc>An external hard drive connects to a Proxmox host, which contains an LXC container running Nextcloud via a bind mount. The container is reachable by LAN clients for sync and web access.</desc>
+<defs>
+<marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+<path d="M2 1L8 5L2 9" fill="none" stroke="#3d3d3a" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</marker>
+</defs>
+
+<rect x="40" y="140" width="130" height="56" rx="8" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="0.5"/>
+<text x="105" y="158" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="500" fill="#2C2C2A">External HDD</text>
+<text x="105" y="176" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#444441">4TB, ext4</text>
+
+<line x1="170" y1="168" x2="188" y2="168" stroke="#3d3d3a" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+<rect x="190" y="40" width="280" height="220" rx="20" fill="#E6F1FB" stroke="#185FA5" stroke-width="0.5"/>
+<text x="210" y="65" text-anchor="start" font-family="sans-serif" font-size="14" font-weight="500" fill="#042C53">Proxmox host</text>
+<text x="210" y="83" text-anchor="start" font-family="sans-serif" font-size="12" fill="#0C447C">Hypervisor</text>
+
+<rect x="210" y="110" width="240" height="110" rx="12" fill="#E1F5EE" stroke="#0F6E56" stroke-width="0.5"/>
+<text x="330" y="140" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="500" fill="#04342C">Nextcloud (LXC)</text>
+<text x="330" y="158" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#085041">Bind-mounted data dir</text>
+
+<line x1="472" y1="168" x2="490" y2="168" stroke="#3d3d3a" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+<rect x="490" y="140" width="110" height="56" rx="8" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="0.5"/>
+<text x="545" y="158" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="500" fill="#2C2C2A">LAN clients</text>
+<text x="545" y="176" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#444441">Sync, web</text>
+</svg>
