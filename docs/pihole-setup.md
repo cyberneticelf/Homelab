@@ -2,13 +2,13 @@
 
 ## Overview
 A Pi-hole DNS sinkhole running on a Raspberry Pi 5, set up as a network-wide 
-ad/tracker blocker. Currently functional but not in active daily use.
+ad/tracker blocker. 
 
 ## Hardware
 - **Host**: Raspberry Pi 5
 
 ## Software stack
-- **OS**: [your OS here — e.g. Raspberry Pi OS]
+- **OS**: Debian
 - **DNS sinkhole**: Pi-hole
 
 ## Status
