@@ -16,8 +16,6 @@ storage.
 
 ### 🛡️ Pi-hole (Raspberry Pi 5)
 A Raspberry Pi 5 running Pi-hole to block ads and trackers network-wide. 
-It works, I got it running properly, but honestly I haven't used it much 
-lately — still counts as a fun build though.
 
 📄 [Full writeup](docs/pihole-setup.md)
 
@@ -30,10 +28,10 @@ useful to someone else poking around with their own setup.
 | Component | Status |
 |---|---|
 | Proxmox + Nextcloud | ✅ Up and running, actually used |
-| Pi-hole | 🟡 Working, just not actively used right now |
+| Pi-hole | ✅ Up and running, actually used |
 
 ## Stuff I might add later
 - [ ] Remote access so I can reach Nextcloud away from home (Tailscale/WireGuard)
-- [ ] Actual backups for the Nextcloud data (currently living dangerously)
+- [ ] Actual backups for the Nextcloud data 
 - [ ] Get back into using Pi-hole properly
 - [ ] Some basic monitoring so I know if something dies
