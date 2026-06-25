@@ -25,8 +25,7 @@ resolver for the network.
 All 3 lists have their own merit and history, run by passionate volunteers.
 
 ## Lessons learned / notes
-- [Why it fell out of active use — interesting context for a writeup: was it 
-  reliability, convenience, replaced by something else?]
+- For new devices on the network need to configure router to push Pi-Hole as the DNS, otherwise you have to do it manually.
 
 ## Future improvements
 - [ ] Add Unbound for upstream DNS privacy
