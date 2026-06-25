@@ -1,6 +1,9 @@
 # Proxmox + Nextcloud Homelab
 
 ## Overview
+
+![Architecture diagram](../diagrams/architecture.svg)
+
 A self-hosted Nextcloud instance running in a Proxmox VE LXC container 
 (TurnKey Debian 12 template), with a 4TB external hard drive providing 
 the actual file storage, bind-mounted into the container.
