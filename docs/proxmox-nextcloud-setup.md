@@ -59,16 +59,15 @@ to understand for anyone doing something similar:
 - Once both the UID mapping and the folder structure were correct, 
   uploads worked and the desktop sync client connected successfully
 
-**Why this matters beyond just "it works now"**
-This is a genuinely common trap with Proxmox unprivileged containers — 
-permissions that look completely correct on the host can still fail 
-inside the container because of UID remapping. Worth understanding the 
-*why* here, not just copy-pasting a `chown` command.
+**Notes - Difference between host and container"**
+Wouldn't have happened if I didnt use an external drive. UID's were different,
+which for a device running it internally wouldn't have been the case.
 
 ## Access
-Currently local network only. No external/internet access configured yet.
+Currently local network only. No external/internet access configured yet,
+and might be it is not needed. I only use it when I am at home.
 
 ## Future improvements
-- [ ] Remote access (Tailscale, or port forwarding + Let's Encrypt with a domain)
+- [ ] Remote access (Tailscale, or port forwarding)
 - [ ] Automated backups for the Nextcloud data directory
 - [ ] Monitoring/alerting
